@@ -1,9 +1,9 @@
 <template>
   <div id="app">
-    <nav>
+    <!-- <nav>
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
-    </nav>
+    </nav> -->
     <router-view/>
   </div>
 </template>
@@ -27,6 +27,14 @@ nav {
     &.router-link-exact-active {
       color: #42b983;
     }
+  }
+}
+.table-sm td{
+  vertical-align: middle !important;
+  h4{
+    margin-bottom: 0;
+    color: #dc3545;
+    margin: 15px 0;
   }
 }
 </style>
